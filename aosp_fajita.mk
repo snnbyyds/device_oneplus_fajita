@@ -27,7 +27,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # PixelExperience Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := aosp_fajita
