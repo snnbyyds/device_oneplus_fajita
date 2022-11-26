@@ -29,9 +29,12 @@ $(call inherit-product, vendor/superior/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Superior Stuff
+SUPERIOR_GAPPS := full
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 PRODUCT_NAME := superior_fajita
 PRODUCT_DEVICE := fajita
