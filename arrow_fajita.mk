@@ -25,7 +25,7 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # ArrowOS Additionals
-DEVICE_MAINTAINER := snnbyyds
+DEVICE_MAINTAINER := snnbyyds and SevralT
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
