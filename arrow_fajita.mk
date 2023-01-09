@@ -28,6 +28,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 DEVICE_MAINTAINER := snnbyyds
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := arrow_fajita
 PRODUCT_DEVICE := fajita
